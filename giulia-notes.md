@@ -1,7 +1,8 @@
 * The label must wrap the input file
 * Attribute multiple is not read by IE9
+* Images with Base64 will not work on IE8 if their size is greater than 32KB http://stackoverflow.com/questions/10159500/internet-explorer-and-base64-image-display
 
-Example tested on IE9
+Example tested on IE9 and IE8
 
 ```html
 <label>Upload:<input type="file" id="element1" multiple style="display:none;"></label>
